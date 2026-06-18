@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    height: 100px;
+    /* border: 1px solid black; */
+  
+}
+
+.logodiv {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 700px;
+        
+}
+
+a {
+    text-decoration: none;
+    align-items: left;
+    color: black;
+}
+
+.buttondiv {
+    display: flex;
+    gap:15px;
+    align-items: center;
+    
+} 
+.login {
+    padding:15px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.Sign-up {
+    padding:15px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    /* background-color: red; */
+    color: solid black;
+}
+.sub-container {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 700px;
+    justify-self:center;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+
+}
+.left-sub {
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid red; */
+    align-items: center;
+    border-radius: 20px;
+        /* justify-self: center; */
+    
+}
+
+.text {
+        align-content: center;
+        margin-bottom: 20px;
+}
+
+h3 {font-size: 80px;
+margin-top: 80px;}
+
+.right-sub {
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    }
+
+.rightdiv {
+    display: grid;
+    padding: 10px;
+    line-height: 1.8;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    border-radius: 10px;
+    
+}
+
+.pic1 {
+    background-image: url(tech1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 100px;
+   
+}
+
+.pic2 {
+    background-image: url(tech2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 250px;
+    grid-row: span 2;
+}
+
+.pic3 {
+    background-image: url(tech3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
+
+.pic4 {
+    background-image: url(tech4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
+
+.pic5 {
+    background-image: url(tech5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    grid-row: span 2;
+}
+
+.pic6 {
+    background-image: url(tech6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
